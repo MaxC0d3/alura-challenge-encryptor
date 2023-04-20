@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryptor Alura</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Encryptor <span>Challenge</span></h1>
+      <form>
+        <div class="text-container">
+          <textarea
+            name="text-encript"
+            id="text-content-area"
+            class="text-content-area"
+            cols="30"
+            rows="4"
+            required
+            placeholder="Type your text here..."
+          ></textarea>
+        </div>
+        <div class="buttons">
+          <div class="encrypt">
+            <button id="encrypt">Encrypt</button>
+          </div>
+          <div class="decrypt">
+            <button id="decrypt">Decrypt</button>
+          </div>
+        </div>
+      </form>
+      <div class="result-container">
+        <p id="result"></p>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
