@@ -32,6 +32,8 @@ function decrypt(t) {
 
 $ta.addEventListener("input", (e) => {
   value = e.target.value;
+  $ta.style.height = "auto";
+  $ta.style.height = $ta.scrollHeight + "px";
 });
 
 $e.addEventListener("click", () => {
